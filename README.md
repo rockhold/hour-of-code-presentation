@@ -4,6 +4,8 @@ opening an Hour of Code™ event. It's intended to be an incredibly brief
 introduction to some of the cool things that engineers do while writing
 code (cool in the eyes of kids, at least).
 
+To view this presentation in your browser, go to http://bit.ly/2jq96FJ.
+
 ## About Hour of Code™
 The 'Hour of Code™' is a nationwide initiative by Computer Science
 Education Week and Code.org to introduce millions of students to one
