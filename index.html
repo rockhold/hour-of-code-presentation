@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Three Trails Elementary Hour of Code&trade; Event Kick-off</title>
+
+    <link rel="stylesheet" href="./reveal.js-3.4.0/css/reveal.css">
+    <link rel="stylesheet" href="./reveal.js-3.4.0/css/theme/black.css">
+
+    <meta name="description" content="A brief presentation to kick-off an Hour of Code Event" />
+    <meta name="author" content="Brandon Rockhold" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="./reveal.js-3.4.0/css/theme/moon.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section data-background="./images/three-trails-elementary.jpg">
+            <h2>Three Trails Elementary</h2>
+            <h3>Science Night - Hour of Code&trade; Kick-off</h3>
+            <small>(2017-01-18)</small>
+        </section>
+
+        <section>
+            <h2>placeholder slide... (about me)</h2>
+        </section>
+
+        <section>
+            <h2>placeholder slide... (about why coding is important)</h2>
+        </section>
+
+        <section>
+            <h2>placeholder slide... (about cool stuff you can do with code)</h2>
+        </section>
+
+        <section>
+            <h2>Hour of Code&trade;</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FC5FbmsH4fw" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>placeholder slide... (include bit.ly links to minecraft and frozen activities)</h2>
+        </section>
+
+        <section>
+            <h2>placeholder slide... (about how to learn more)</h2>
+        </section>
+    </div>
+</div>
+
+<script src="./reveal.js-3.4.0/lib/js/head.min.js"></script>
+<script src="./reveal.js-3.4.0/js/reveal.js"></script>
+
+<script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        history: true,
+
+        transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            }
+        ]
+    });
+</script>
+</body>
+</html>
